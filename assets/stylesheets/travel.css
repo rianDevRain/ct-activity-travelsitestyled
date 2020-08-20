@@ -42,11 +42,11 @@ style the element with the id of header-statement to have centered text
   text-align: center;
 }
 
-.class-row {
+.page-row {
   width: 100%;
   clear: both;
   padding: 5%;
-  margin: 2%;
+  margin: 2% 0;
 }
 
 /*
@@ -119,7 +119,7 @@ target the element with the id of italy
 target the element with the id of aruba
 - set the background image to (aruba_flag.svg) in our assets/images directory
 */
-#chile {
+div#chile {
   background-image: url("../images/chile_flag.svg");
 }
 /*
@@ -216,8 +216,8 @@ th {
   - make the text color black
   - make the background color white
 */
-h3 {
-  align-content: center;
+#travel-table h3 {
+  text-align: center;
 }
 /*
  target the h3 element within the element with the id of travel-table 

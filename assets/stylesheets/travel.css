@@ -58,14 +58,15 @@ target the elements with a class of page-row and set the following:
 */
 .card {
   width: 20%;
-  height: 300px;
+  height: 100px;
   margin: 2.5%;
   padding-top: 15%;
   float: left;
-  background: white no-repeat;
+  background-color: white;
   text-align: center;
   color: black;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /*
@@ -84,9 +85,10 @@ target the elements with a class of card and set the following:
 #hero {
   width: 100%;
   height: 450px;
-  background: cover no-repeat;
+  background-size: cover;
   background-image: url("../images/travel_hero.jpg");
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 /*
@@ -182,6 +184,7 @@ header a {
 table {
   border: 2px solid black;
   width: 100%;
+  border-collapse: collapse;
 }
 /*
  target the table element 
